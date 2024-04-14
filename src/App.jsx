@@ -3,7 +3,11 @@ import styles from "./App.module.css";
 export function App() {
   return (
     <div className={styles.container}>
-      <img className={styles.image} src="avatar-jessica.jpeg" alt="profile" />
+      <img
+        className={styles.image}
+        src="avatar-jessica.jpeg"
+        alt="Jesica Randall's avatar"
+      />
       <div className={styles.info}>
         <h1 className={styles.name}>Jessica Randall</h1>
         <p className={styles.location}>London, United Kingdom</p>
